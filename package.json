@@ -1,0 +1,23 @@
+{
+	"name": "leetcode-log",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx chokidar './src/**/*.ts' -c 'npx tsc {path}'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/toriksy/leetcode-log"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^14.6.0",
+		"chokidar": "^3.4.2",
+		"chokidar-cli": "^2.1.0",
+		"npm-run-all": "^4.1.5",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.7"
+	}
+}
